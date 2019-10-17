@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body{
+	height: 100%;
+	background-color:ghostwhite;
+	margin: 0;
+}
+/* all page content*/
+.page-wrapper{
+	min-height: 100%
+}
+/* logo*/
+.logo{
+	width:300px;
+}
+h1{
+	text-align: center;
+	font-size: 40px;
+	margin: 0;
+}
+table td{
+	text-align: left;
+			
+}
+.avatar{
+	width: 40%;
+}
+/*form style*/
+.login{
+	text-align: center;
+	padding: 6px;
+	margin-top: 100px;
+	margin-left: 36%;
+}
+/*table style color*/
+.alogin{
+	text-align: center;
+	background-color: tomato;
+	color: #555;
+	font-size: 35px;
+	border:0.6px;
+	border-style: groove;
+	border-radius: 30px;
+	padding: 6px;
+	border-spacing: 4px;
+}
+/*input box style*/
+
+::placeholder{
+	color: #777777;
+}
+.textbox{
+	background-color:ghostwhite;
+	font-size: 18px;
+	border-width:inherit;
+	border-radius: 10px;
+	text-align: center;
+}/* login button*/
+.bnt{
+	border-radius: 8px;
+	font-size: 16px;
+}
+/* forgot password, sign up */
+.forgot{
+	font-size: 16px;
+	color:#3A3EA4
+}
+/*sign up text*/
+
+.forgot1{
+	font-size: 18px;
+	color: beige;
+}
+
+/*tonav style*/
+.topnav{
+	width: 100%;
+	margin-left: -18px;
+	
+}
+/*topnav text*/
+.topnav a{
+	text-decoration: none;
+	float: right;
+	padding: 3px;
+	text-align: center;
+	
+}
+
+/* style nav */
+.navbar {
+  width: 100%;
+  margin: 0px;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* text nav */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* hover nav */
+.navbar a:hover {
+  background-color: tomato;
+}
+
+/*active nav
+.active {
+  background-color:tomato;
+}*/
+/*search nav*/
+.navbar input[type=text]{
+	text-decoration: none;
+	float: right;
+	margin: 10px 10px 0px 10px;
+	color: #555555
+	
+}
+
+/*footer*/
+.footer{
+	background: #303036;
+	color: #d3d3d3;
+	height: 400px;
+	position: relative;
+	
+}
+
+.footer .footer-content{
+	border: 1px solid tomato;
+	height: 350px;
+	display: flex;
+}
+.footer .footer-content .footer-section {
+	flex: 1;
+	padding: 25px;
+}
+.footer .footer-content, h1, .footer .footer-content, h2 {
+	color: ghostwhite;
+	
+}
+.footer .footer-contact .about, span, h1{
+	color: tomato;
+}
+.footer .footer-contact .about .contact, span {
+	display: block;
+	font-size: 1.1em;
+	margin-bootom: 8px;
+}
+.footer .footer-contact .links, h2{
+	font-size: 33px;
+	color:tomato;
+	text-align: center;
+}
+
+.footer .footer-contact .links, ul a{
+	text-align: center;
+	display: block;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+	text-decoration: none;
+	color: ghostwhite;
+}
+.footer .footer-contact .links, ul a:hover{
+	color: gray;
+}
+
+.footer .footer-bottom{
+	background: #343a40;
+	color: #686868;
+	height: 50px;
+	width: 100%;
+	text-align:center;
+	bottom: 0%;
+	left: 0px;
+	padding-top: 20px;
+	position: absolute;
+}

@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+html, body{
+	height: 100%;  
+	margin: 0px;
+	background-color: ghostwhite;
+	font-family: 'Lora', serif;
+}
+/* all page content*/
+.page-wrapper{
+	min-height: 100%
+}
+
+/* logo*/
+.logo{
+	width: 400px;
+	float: left;
+}
+
+/* heading*/
+.heading{
+	background-size: 200px;
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+}
+
+
+/* style nav*/
+.navbar {
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+    background-color: #555;
+    overflow: auto;
+	display: block;
+
+}
+
+/* text nav*/
+.navbar a {
+  float: left;
+  font-size: 25px;
+	font-family: 'Audiowide';
+  text-align: center;
+  padding: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+/* hover nav*/
+.navbar a:hover {
+  background-color: tomato;
+}
+
+/*active nav*/
+/*.active {
+  background-color: tomato;
+}*/
+/*search nav*/
+.navbar input[type=text]{
+	text-decoration: none;
+	float: right;
+	margin: 10px 10px 0px 10px;
+	
+}
+/*tonav style*/
+.topnav{
+	width: 100%;
+	overflow: auto;
+	background: #555;
+}
+/*topnav text*/
+.topnav a{
+	text-decoration: none;
+	float: right;
+	padding: 4px;
+	color: ghostwhite;
+}
+/*first of first content image*/
+.image_content{
+	background-image: url("Images/unib.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	margin: 1% 0% 0% 0% ;
+	background-attachment: fixed;
+	position: relative;
+}
+/* content image para*/
+.image_content_para{
+	position: absolute;
+	bottom: 0;
+	background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5);
+	color: ghostwhite;
+	padding: 20px;
+	width: 100%;
+}
+/*content image para*/
+.image_content_para_heading{
+	letter-spacing: 2px;
+	font-family: 'Autour One';
+}
+
+/*first content image*/
+.conten{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 600px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+/*first content div*/
+.image_content1_div{
+	margin: 0 auto;
+	width: 50%;
+	/*position: absolute;*/
+	right: 0;
+	margin-left: 1%;
+	
+}
+/*first content image*/
+.image_content1{
+	border-radius: 15px;
+	width: 50%;
+	height: 540px;
+	margin-top: 2%;
+	margin-left: 1%;
+	left: 0;
+	
+}
+/* second content image*/
+.image_content2{
+	border-radius: 15px;
+	width: 50%;
+	height: 540px;
+	margin-top: 2%;
+	margin-left: 50%;
+	right: 0px;
+	
+}
+/* third content image*/
+.image_content3{
+	border-radius: 15px;
+	width: 50%;
+	height: 540px;
+	margin-top: 2%;
+	margin-left: 1%;
+	
+}
+/*footer*/
+.footer{
+	background: #303036;
+	color: #d3d3d3;
+	height: 400px;
+	position: relative;
+	
+}
+
+.footer .footer-content{
+	border: 1px solid tomato;
+	height: 350px;
+	display: flex;
+}
+.footer .footer-content .footer-section {
+	flex: 1;
+	padding: 25px;
+}
+.footer .footer-content, .footer .footer-content, .foot {
+	color: ghostwhite;
+	
+}
+/*footer content*/
+.footer .footer-contact .about, span,{
+	color: tomato;
+}
+.footer .footer-contact .about .contact, span {
+	display: block;
+	font-size: 1.1em;
+	margin-bootom: 8px;
+	
+}
+/*footer about*/
+.foot1, .foot{
+	letter-spacing: 2px;
+}
+.footer .footer-contact .links, .foot{
+	font-size: 33px;
+	color:tomato;
+	text-align: center;
+}
+/* footer links*/
+.footer .footer-contact .links, ul a{
+	text-align: center;
+	display: block;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+	text-decoration: none;
+	color: ghostwhite;
+}
+.footer .footer-contact .links, ul a:hover{
+	color: gray;
+}
+
+.footer .footer-bottom{
+	background: #343a40;
+	color: #686868;
+	height: 50px;
+	width: 100%;
+	text-align:center;
+	bottom: 0%;
+	left: 0px;
+	padding-top: 20px;
+	position: absolute;
+}
+
+
+
+
+
+
