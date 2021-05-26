@@ -1,57 +1,326 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>admission</title>
-<link rel="stylesheet" href="home.css">
+	<meta charset="utf-8">
+	<title>Admission</title>
+<!--goole fonts abd icons-->
+<link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Autour One' rel='stylesheet'>
 <script src="https://kit.fontawesome.com/322d82fc35.js" crossorigin="anonymous"></script>
+<!--jquery link-->
+<script src="jquery-3.4.1.min.js"></script>
 
+<!--css link-->
+<link rel="stylesheet" href="home.css">
+<!--content style-->
+	<style>
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+		.bg{
+			background-image: url("Images/admission1.jpg");
+			width: 100%;
+			height: 600px;
+			background-size: 100% 600px;
+		}
+		.bg_logo{
+			float: left;
+			margin: 0;
+		}
+		.content-1{
+			width: 100%;
+			height: 700px;
+		}
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 512px;
+	margin-top: 40px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: tomato;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: rgba(255, 99, 71, 0.5);
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+	margin-top: 40px;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 665px;
+	background: rgba(255, 99, 71, 0.5);
+	letter-spacing: 2px;
+	padding: 5px;
+}
+</style>
+	<style>
+		.div1{
+		width: 100%;
+		height: 600px;
+		border: 2px solid;
+	}
+	</style>
 </head>
 
 <body>
-	<div class="heading">
-		<img class="logo" src="Images/poij.png" alt="pride logo">
-	</div>
+	
 	<div class="topnav">
-		<a href="login.html"><i class="login">Login</i></a>
-		<a href="signup.html"><i class="register">Registration</i></a>
+		<a href="login.html" class="login">Login &nbsp; &nbsp; &nbsp; &nbsp; </a> 
+		<a href="signup.html" class="login">Registration &nbsp; &nbsp;</a>
 	</div>
 	<div class="navbar">
 	
- <a class="active" href="home.html"><i class="home"></i> Home</a>
-  <a href="about.html" class="active"><i class="about"></i> About Us</a>
-  <a href="admission.html" class="active"><i class="admission"></i> Admission</a>
-  <a href="placement.html" class="active"><i class="placement"></i> Placements</a>
-  <a href="acadmics.html" class="active"><i class="acadmics"></i> Acadamics</a>
-  <a href="campus.html" class="active"><i class="campus"></i> Campus Life</a>
+  <a class="active" href="home.html"><i class="home"></i> Home</a>
+  <a href="about.html" class="active"><i class="home"></i> About Us</a>
+  <a href="placement.html" class="active"><i class="home"></i> Placements</a>
+  <a href="campus.html" class="active"><i class="home"></i> Campus Life</a>
+  <a href="admission.html" class="active"><i class="home"></i> Admission</a>
+  <a href="acadmics.html" class="active"><i class="home"></i> Academics</a>
 	<input type="text" placeholder="Search...">	
 </div>
 <div class="page-wrapper">
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	<div class="bg">
+		<img src="Images/poij.png" width="444" height="200" class="bg_logo" alt="logo">
 	</div>
+	
+	<div class="content-1">
+	<div class="tab">
+  		<button class="tablinks" onclick="openCity(event, 'EngineeringU')" id="defaultOpen">Engineering(Under Graduate)</button>
+		<button class="tablinks" onclick="openCity(event, 'EngineeringP')">Engineering(Post Graduate)</button>
+  		<button class="tablinks" onclick="openCity(event, 'Medical')">Medicine</button>
+  		<button class="tablinks" onclick="openCity(event, 'Achitecture')">Achitecture</button>
+  		<button class="tablinks" onclick="openCity(event, 'Hotel')">Hotel Hospitality and Tourism</button>
+		<button class="tablinks" onclick="openCity(event, 'Pharmacy')">Pharmacy</button>
+		<button class="tablinks" onclick="openCity(event, 'Management')">Commerce Managemnt and Economics</button>
+		<button class="tablinks" onclick="openCity(event, 'Life-science')">Life Science and Nursing</button>
+		
+		
+</div>
+
+<div id="EngineeringU" class="tabcontent">
+  <h3>PROGRAM(S) OFFERED AT PRIDE NATIONAL UNIVERSITY</h3>
+  <ul>
+<li>B.Tech - Bachelor of Technology</li>
+<li>B.Tech - Aeronautical Engineering</li>
+<li>B.Tech - Automobile Engineering</li>
+<li>B.Tech - Biomedical Engineering</li>
+<li>B.Tech - Biotechnology</li>
+<li>B.Tech - Chemical Engineering</li>
+<li>B.Tech - Civil Engineering</li>
+<li>B.Tech - Computer & Comm. Engineering</li>
+<li>B.Tech - Computer Science & Engineering</li>
+<li>B.Tech - Electrical & Electronics Engineering</li>
+<li>B.Tech - Electronics and Comm. Engineering</li>
+<li>B.Tech - Industrial & Production Engineering</li>
+<li>B.Tech - Information Technology</li>
+<li>B.Tech - Electronics & Instrumentation Engineering</li>
+<li>B.Tech - Mechatronics Engineering</li>
+<li>B.Tech - Media Technology</li>
+<li>B.Tech - Mechanical Engineering</li>
+<li>B.Tech - Lateral Entry</li>
+</ul>
+</div>
+
+<div id="EngineeringP" class="tabcontent">
+  <h3>PROGRAM(S) OFFERED AT PRIDE NATIONAL UNIVERSITY</h3>
+  <ul>
+<li>MSc - Master of Science</li>
+<li>MSc - Applied Mathematics and Computing</li>
+<li>MSc - Chemistry</li>
+<li>MSc - Physics</li>
+<li>MSc Geology</li>
+<li>M.Tech - Master of Technology</li>
+<li>M.Tech - Thermal Sciences and Energy Systems</li>
+<li>M.Tech Energy Systems and Management</li>
+<li>M.Tech - Engineering Management</li>
+<li>M.Tech - Environmental Engineering</li>
+<li>M.Tech - Aero Space Engineering</li>
+<li>M.Tech - Manufacturing Engineering</li>
+<li>M.Tech - Computer Science & Info Security</li>
+<li>M.Tech - Biomedical Engineering</li>
+<li>M.Tech - Power Electronic & Drives</li>
+<li>M.Tech - Control Systems</li>
+<li>M.Tech - Chemical Engineering</li>
+<li>M.Tech - Software Engineering</li>
+<li>M.Tech - Construction Engg & Mgmt</li>
+<li>M.Tech - Computer Science & Engg</li>
+<li>M.Tech - Printing and Media Technology</li>
+<li>M.Tech - Comp Aided Analysis and Design</li>
+<li>M.Tech - Structural Engineering</li>
+<li>M.Tech-Digital Electronics & Advanced Communication Eligibility</li>
+<li>M.Tech - MTech in Microelectronics</li>
+<li>M.Tech in Computer Networking & Engineering</li>
+<li>MTech - Industrial Automation & Robotics</li>
+<li>MTech in Industrial Biotechnology</li>
+<li>M.Tech - Automobile Engineering</li>
+<li>M.Tech - Tribology and Maintenance</li>
+<li>M.Tech (Avionics)</li>
+<li>MCA - Master of Computer Applications</li>
+</ul>
+</div>
+	
+<div id="Medical" class="tabcontent">
+  <h3>PROGRAM(S) OFFERED AT PRIDE NATIONAL UNIVERSITY</h3>
+  <ul>
+<li>Medical (UG) Electives</li>
+<li>MBBS - Bachelor of Medicine & Bachelor of Surgery</li>
+<li>MSc Clinical Embryology</li>
+<li>MSc Yoga Therapy</li>
+<li>MSc</li>
+<li>PG Medical Diploma</li>
+<li>MD - Post-graduation in Medicine</li>
+<li>MSc in Forensic Science</li>
+<li>DM - Super Specialty Program</li>
+<li>PhD Doctoral Degree</li>
+<li>Advanced Training Program in Clinical Genetics</li>
+<li>Advanced Training Program in Diabetes Care</li>
+<li>MCh - Super Specialty Program</li>
+<li>MPhil - Super Specialty Program	</li>
+<li>PG Certificate Course in Panchakarma</li>
+<li>Certificate Course in Panchakarma Technician & Massage Therapist</li>
+<li>PG Certificate Course in Panchakarma</li>
+</ul>	
+	
+</div>
+
+<div id="Achitecture" class="tabcontent">
+  <h3>PROGRAM(S) OFFERED AT PRIDE NATIONAL UNIVERSITY</h3>
+	<ul>
+<li>Bachelor of Science in Fashion Design</li>
+<li>Bachelor of design (Fashion Design) [B.Des. (FD)]</li>
+<li>Bachelor of Architecture</li>
+<li>Bachelor of Interior Design- Eligibility, Fees, Facilities & Admission 2019-20 Form at MAHE</li>	
+<li>MA - Interior Design</li>
+<li>Master of Architecture in Urban Design & Development</li>
+<li>MA - Fashion Management	</li>
+<li>Certificate Course</li>	
+</ul>
+	
+
+</div>
+
+<div id="Hotel" class="tabcontent">
+  <h3>PROGRAM(S) OFFERED AT PRIDE NATIONAL UNIVERSITY</h3>
+  <ul>
+<li>BHM - Bachelor of Hotel Management</li>
+<li>BA Culinary Arts</li>
+<li>Bachelor of Hotel Management - Lateral Entry</li>
+	
+<li>M.Sc Dietetics and Applied Nutrition</li>
+<li>MSc - Hospitality & Tourism Management	</li>
+	
+</ul>
+	
+
+</div>
+	
+ <div id="Pharmacy" class="tabcontent">
+  <h3>PROGRAM(S) OFFERED AT PRIDE NATIONAL UNIVERSITY</h3>
+  <ul>
+<li>PharmD - Doctor of Pharmacy</li>
+<li>BPharm - Bachelor of Phamacy</li>
+<li>BPharm (Bachelor of Pharmacy) - Lateral Entry</li>
+<li>MPharm - Master of Pharmacy</li>
+<li>PharmD (Doctor of Pharmacy) - Post Baccalaureate</li>	
+<li>DPharm</li>
+
+</ul>
+	
+</div>
+
+<div id="Management" class="tabcontent">
+  <h3>PROGRAM(S) OFFERED AT PRIDE NATIONAL UNIVERSITY</h3>
+<ul>
+<li>MBA - GLOBAL BUSINESS</li>
+<li>MBA - Master of Business Administration</li>
+<li>MBA - Healthcare Management</li>
+</ul>
+</div>
+	
+<div id="Life-science" class="tabcontent">
+  <h3>PROGRAM(S) OFFERED AT PRIDE NATIONAL UNIVERSITY</h3>
+<ul>
+	<li>BSc - Biotechnology</li>
+	<li>M.Sc Molecular Biology and Human Genetics</li>
+	<li>M.Sc Medical Biotechnology</li>
+	<li>MSc - Bioinformatics</li>
+	<li>M.Sc. Systems Biology</li>
+	<li>M.Sc. by Research in Life Sciences</li>
+	<li>PG Diploma in Cellular and Molecular Diagnostics</li>
+	<li>Certificate Course in Bioinformatics</li>
+	<li>PG Diploma in Cellular and Molecular Diagnostics</li>
+	<li>Post Basic Diploma - Nursing</li>
+	<li>BSc Nursing</li>
+	<li>Post Basic B.Sc in Nursing	</li>
+	<li>MSc - Nursing</li>
+	<li>Nurse Practitioner Critical Care Postgraduate Residency Programme</li>	
+	<li>MPhil - Nursing	</li>
+</ul>
+	
+</div>
+</div>
+	
+	
+		<!--content scripting-->
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+	
+	
+
+	</div>
+	
+	
+	
+	
 <!--Footer-->
 <div class="footer">
 	<div class="footer-content">
 		<div class="footer-section about">
-			<h1 class="logo-text"><span>PRIDE NATIONAL UNIVERSITY</span></h1>
-			<p> Pride National University provides a top class education in every asspects of cources. We aim for the industry ready students in there respective cources by providig level traing and preparation. We also provide professional environment for student to learn interractively. Come Join Us.			</p>
+			<h1 class="foot"><span>PRIDE NATIONAL UNIVERSITY</span></h1>
+			<p class="foot1"> Pride National University provides a top class education in every asspects of cources. We aim for the industry ready students in there respective cources by providig level traing and preparation. We also provide professional environment for student to learn interractively. Come Join Us.			</p>
 		<div class="contact">
 			<span><i class="fas fa-phone"></i>&nbsp; 9876543210</span>
 			<span><i class="fas fa-envelope"></i>&nbsp; prideuniversity.eu.in</span>
@@ -64,28 +333,28 @@
 			</div>
 		</div>
 		<div class="footer-section links">
-			<h2>Quick Links</h2>
+			<h2 class="foot">Quick Links</h2>
 			<br>
 			<ul type="none">
 				<a href="#">
-					<li>Events</li>
+					<li class="foot1">Events</li>
 				</a>
 				<a href="#">
-					<li>News</li>
+					<li class="foot1">News</li>
 				</a>
 				<a href="#">
-					<li>Founders</li>
+					<li class="foot1">Founders</li>
 				</a>
 				<a href="#">
-					<li>Gallery</li>
+					<li class="foot1">Gallery</li>
 				</a>
 				<a href="#">
-					<li>Terms And Conditions</li>
+					<li class="foot1">Terms And Conditions</li>
 				</a>
 			</ul>
 		</div>
          <div class="footer-section contact-form">
-			 <h2>Contact us</h2>
+			 <h2 class="foot">Contact us</h2>
 			 <br>
 			 <form align="center">
 				 <input type="email" name="email" class="contact-input" placeholder="Your email address..."><br>

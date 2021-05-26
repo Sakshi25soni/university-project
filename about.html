@@ -2,35 +2,96 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>about</title>
-<link rel="stylesheet" href="home.css">
+<title>About</title>
+<!--goole fonts abd icons-->
+<link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Autour One' rel='stylesheet'>
 <script src="https://kit.fontawesome.com/322d82fc35.js" crossorigin="anonymous"></script>
-
+<!--jquery link-->
+<script src="jquery-3.4.1.min.js"></script>
+<!--css link-->
+<link rel="stylesheet" href="home.css">
+<!--content styling-->
+<style>
+	.div1{
+		width: 100%;
+		height: 600px;
+		background-image: url("Images/about.jpg");
+		width: 100%;
+		height: 600px;
+		background-size: 100% 600px;
+	}
+	.div1_image{
+		width: 100%;
+		height: 570px;
+		box-shadow:9px 15px 10px  #666;
+	}
+	.content1{
+		width: 99.5%;
+		height: 540px;
+		position: relative;
+		overflow: hidden;
+		
+	}
+	.content1_image{
+		float: right;
+		width: 48%;
+		height: 500px;
+		margin-right: 1.5%;
+		box-shadow:9px 15px 10px  #666;
+		border-radius: 15px;
+	}
+	.content1_para{
+		position: absolute;
+		width: 48%;
+		height: 500px;
+		margin-left: 15px;
+		box-shadow:9px 15px 10px  #666;
+		font-family: 'Autour One';
+		letter-spacing: 2px;
+		font-size: 15px;
+		background: rgba(66,66,66,0.20);
+	}
+	.content1_para:hover{
+	background-color: rgba(255, 99, 71, 0.5);
+}
+	.para1{
+		font-size: 24px;
+		text-align: center;
+	}
+	</style>
 </head>
 
 <body>
-	<div class="heading">
-		<img class="logo" src="Images/poij.png" alt="pride logo">
-	</div>
-
+	
 	<div class="topnav">
-		<a href="login.html"><i class="login">Login</i></a>
-		<a href="signup.html"><i class="register">Registration</i></a>
+		<a href="login.html" class="login">Login &nbsp; &nbsp; &nbsp; &nbsp; </a> 
+		<a href="signup.html" class="login">Registration &nbsp; &nbsp;</a>
 	</div>
 	<div class="navbar">
 	
- <a class="active" href="home.html"><i class="home"></i> Home</a>
-  <a href="about.html" class="active"><i class="about"></i> About Us</a>
-  <a href="admission.html" class="active"><i class="admission"></i> Admission</a>
-  <a href="placement.html" class="active"><i class="placement"></i> Placements</a>
-  <a href="acadmics.html" class="active"><i class="acadmics"></i> Acadamics</a>
-  <a href="campus.html" class="active"><i class="campus"></i> Campus Life</a>
+  <a class="active" href="home.html"><i class="home"></i> Home</a>
+  <a href="about.html" class="active"><i class="home"></i> About Us</a>
+  <a href="placement.html" class="active"><i class="home"></i> Placements</a>
+  <a href="campus.html" class="active"><i class="home"></i> Campus Life</a>
+  <a href="admission.html" class="active"><i class="home"></i> Admission</a>
+  <a href="acadmics.html" class="active"><i class="home"></i> Academics</a>
 	<input type="text" placeholder="Search...">	
 </div>
 <div class="page-wrapper">
-	
-	
-	
+	<div class="div1">
+		
+		<img src="Images/poij.png" alt="logo" width="444" height="200" class="div1-logo">
+	</div>
+	<div class="content1">
+		<div class="content1_para">
+			<p><h3 class="para1">ABOUT PRIDE NATIONAL UNIVETSITY</h3><strong>
+PNU was established with the aim of providing quality higher education on par with international standards. It persistently seeks and adopts innovative methods to improve the quality of higher education on a consistent basis.The campus has a cosmopolitan atmosphere with students from all corners of the globe. Experienced and learned teachers are strongly encouraged to nurture the students. The global standards set at PNU in the field of teaching and research spur us on in our relentless pursuit of excellence. In fact, it has become a way of life for us. The highly motivated youngsters on the campus are a constant source of pride. Our Memoranda of Understanding with various international universities are our major strength. They provide for an exchange of students and faculty and encourage joint research projects for the mutual benefit of these universities. Many of our students, who pursue their research projects in foreign universities, bring high quality to their work and esteem to India and have done us proud. With steady steps, we continue our march forward. We look forward to meeting you here at PNU.</strong></p>
+		</div>
+		<div class="content1_div">
+			<img src="Images/about1.jpg" alt="education" class="content1_image">
+		</div>
+	</div>
 	
 	
 	
@@ -54,8 +115,8 @@
 <div class="footer">
 	<div class="footer-content">
 		<div class="footer-section about">
-			<h1 class="logo-text"><span>PRIDE NATIONAL UNIVERSITY</span></h1>
-			<p> Pride National University provides a top class education in every asspects of cources. We aim for the industry ready students in there respective cources by providig level traing and preparation. We also provide professional environment for student to learn interractively. Come Join Us.			</p>
+			<h1 class="foot"><span>PRIDE NATIONAL UNIVERSITY</span></h1>
+			<p class="foot1"> Pride National University provides a top class education in every asspects of cources. We aim for the industry ready students in there respective cources by providig level traing and preparation. We also provide professional environment for student to learn interractively. Come Join Us.			</p>
 		<div class="contact">
 			<span><i class="fas fa-phone"></i>&nbsp; 9876543210</span>
 			<span><i class="fas fa-envelope"></i>&nbsp; prideuniversity.eu.in</span>
@@ -68,28 +129,28 @@
 			</div>
 		</div>
 		<div class="footer-section links">
-			<h2>Quick Links</h2>
+			<h2 class="foot">Quick Links</h2>
 			<br>
 			<ul type="none">
 				<a href="#">
-					<li>Events</li>
+					<li class="foot1">Events</li>
 				</a>
 				<a href="#">
-					<li>News</li>
+					<li class="foot1">News</li>
 				</a>
 				<a href="#">
-					<li>Founders</li>
+					<li class="foot1">Founders</li>
 				</a>
 				<a href="#">
-					<li>Gallery</li>
+					<li class="foot1">Gallery</li>
 				</a>
 				<a href="#">
-					<li>Terms And Conditions</li>
+					<li class="foot1">Terms And Conditions</li>
 				</a>
 			</ul>
 		</div>
          <div class="footer-section contact-form">
-			 <h2>Contact us</h2>
+			 <h2 class="foot">Contact us</h2>
 			 <br>
 			 <form align="center">
 				 <input type="email" name="email" class="contact-input" placeholder="Your email address..."><br>
@@ -105,6 +166,7 @@
 	<div class="footer-bottom">
 		&copy; prideuniversity.eu.in | Designed by
 	</div>
+</div>
 </div>
 </body>
 </html>

@@ -1,35 +1,143 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>acadmics</title>
-<link rel="stylesheet" href="home.css">
+	<meta charset="utf-8">
+<title>academics</title>
+<!--goole fonts abd icons-->
+<link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Autour One' rel='stylesheet'>
 <script src="https://kit.fontawesome.com/322d82fc35.js" crossorigin="anonymous"></script>
-
+<!--jquery link-->
+<script src="jquery-3.4.1.min.js"></script>
+<!--css link-->
+<link rel="stylesheet" href="home.css">
+ <!--content css-->
+<style>
+	.div1{
+		background-image: url("Images/academics1.jpg");
+		width: 100%;
+		height: 600px;
+		background-size: 100% 600px;
+	}
+	.div1-logo{
+		float: left;
+	}
+	/*second div (contents)*/
+	.div2{
+		width: 100%;
+	}
+	/*div headind*/
+	.div2-heading{
+		margin: 15px 0 0 0 ;
+		font-size: 43px;
+		text-align: center;
+		font-family: 'Autour one';
+		width: 100%;
+		height: 50px;
+		text-shadow: 2px 2px rgba(0,0,0,0.30);
+		color: tomato;
+	}
+	/*block style*/
+	.subdiv2{
+		margin: 70px 0;
+		display: flex;
+		width: 65%;
+		height: 400px;
+		margin-left: 20%;
+		border-radius: 22px;
+	}
+	/*sub block style*/
+	.subdiv2-content{
+		width: 65%;
+		height: 400px;
+		background-color: #ddd;
+		letter-spacing: 2px;
+		font-size: 20px;
+		text-align: center;
+		border-radius: 22px;
+	}
+	/*sub block heading style*/
+	.subdiv2-content-heading{
+		font-size: 34px;
+		text-shadow: 2px 2px rgba(0,0,0,0.30);
+		font-family: 'Autour one'
+	}
+	.subdiv2-content:hover{
+		background-color: rgba(255, 99, 71, 0.5);
+	}
+	/*sub block image style*/
+	.subdiv2-image{
+		border-radius: 22px;
+	}
+	
+</style>	
 </head>
 
 <body>
-<div class="heading">
-		<img class="logo" src="Images/poij.png" alt="pride logo">
-	</div>	
+	
 	<div class="topnav">
-		<a href="login.html"><i class="login">Login</i></a>
-		<a href="signup.html"><i class="register">Registration</i></a>
+		<a href="login.html" class="login">Login &nbsp; &nbsp; &nbsp; &nbsp; </a> 
+		<a href="signup.html" class="login">Registration &nbsp; &nbsp;</a>
 	</div>
 	<div class="navbar">
 	
   <a class="active" href="home.html"><i class="home"></i> Home</a>
-  <a href="about.html" class="active"><i class="about"></i> About Us</a>
-  <a href="admission.html" class="active"><i class="admission"></i> Admission</a>
-  <a href="placement.html" class="active"><i class="placement"></i> Placements</a>
-  <a href="acadmics.html" class="active"><i class="acadmics"></i> Acadamics</a>
-  <a href="campus.html" class="active"><i class="campus"></i> Campus Life</a>
+  <a href="about.html" class="active"><i class="home"></i> About Us</a>
+  <a href="placement.html" class="active"><i class="home"></i> Placements</a>
+  <a href="campus.html" class="active"><i class="home"></i> Campus Life</a>
+  <a href="admission.html" class="active"><i class="home"></i> Admission</a>
+  <a href="acadmics.html" class="active"><i class="home"></i> Academics</a>
 	<input type="text" placeholder="Search...">	
 </div>
 <div class="page-wrapper">
 	
-	
-	
+<div class="div1">
+	<img src="Images/poij.png" alt="logo" width="444" height="200" class="div1-logo">
+</div>
+<div class="div2">
+	<div class="div2-heading">
+		GOING BEYOND THE CLASSROOM
+	</div>
+	<div class="subdiv2">
+		<div class="subdiv2-content">
+			<img src="Images/academics2.jpg" alt="go kart" width="100%" height="400px" class="subdiv2-image">
+		</div>
+		<div class="subdiv2-content">
+			<span class="subdiv2-content-heading">TRAININGS & INTERNSHIPS</span>
+			<p class="subdiv2-content-para">
+			Summer trainings, full-term optional / compulsory internships, ‘On-the-job’ trainings, study tours, and skill enhancement events and workshops are extensively integrated in LPU curriculum. They expose students to real work environments and provide an opportunity to apply their learning in real life situations.
+
+			On-site experience has been gained by our students through industry internships in corporate giants like Cognizant, Microsoft, Infosys, ABB, ISRO, Simplex to name a few.
+			</p>
+		</div>
+	</div>
+	<div class="subdiv2">
+	<div class="subdiv2-content">
+		<span class="subdiv2-content-heading">INDUSTRY PROJECTS</span>
+		<p class="subdiv2-content-para">
+			LPU offers various opportunities for students to work directly with industry on Live and Entrepreneurial projects.
+
+			Industry projects give our students insights about latest trends in the corporate world and help them become competitive and ready for the real world.
+		</p>
+					</div>
+		<div class="subdiv2-content">
+			<img src="Images/academics3.jpg" alt="workshop" width="100%" height="400px" class="subdiv2-image">
+		</div>
+	</div>
+	<div class="subdiv2">
+		<div class="subdiv2-content">
+			<img src="Images/academics4.jpg" alt="dancing" width="100%" height="400px" class="subdiv2-image">
+		</div>
+		<div class="subdiv2-content">
+			<span class="subdiv2-content-heading">INDUSTRY PROJECTS</span>
+			<p class="subdiv2-content-para">
+				Renowned choreographer visit and provide max 3-4 days of workshop. Student can have a hand on experiance on how to become a choreographer. Doubt clearing session are
+				held all syudent how entered. Learing from real life choregrapher that what it need to a choregrapher.
+			</p>
+		</div>
+	</div>
+</div>		
+
 	
 	
 	
@@ -56,8 +164,8 @@
 <div class="footer">
 	<div class="footer-content">
 		<div class="footer-section about">
-			<h1 class="logo-text"><span>PRIDE NATIONAL UNIVERSITY</span></h1>
-			<p> Pride National University provides a top class education in every asspects of cources. We aim for the industry ready students in there respective cources by providig level traing and preparation. We also provide professional environment for student to learn interractively. Come Join Us.			</p>
+			<h1 class="foot"><span>PRIDE NATIONAL UNIVERSITY</span></h1>
+			<p class="foot1"> Pride National University provides a top class education in every asspects of cources. We aim for the industry ready students in there respective cources by providig level traing and preparation. We also provide professional environment for student to learn interractively. Come Join Us.			</p>
 		<div class="contact">
 			<span><i class="fas fa-phone"></i>&nbsp; 9876543210</span>
 			<span><i class="fas fa-envelope"></i>&nbsp; prideuniversity.eu.in</span>
@@ -70,28 +178,28 @@
 			</div>
 		</div>
 		<div class="footer-section links">
-			<h2>Quick Links</h2>
+			<h2 class="foot">Quick Links</h2>
 			<br>
 			<ul type="none">
 				<a href="#">
-					<li>Events</li>
+					<li class="foot1">Events</li>
 				</a>
 				<a href="#">
-					<li>News</li>
+					<li class="foot1">News</li>
 				</a>
 				<a href="#">
-					<li>Founders</li>
+					<li class="foot1">Founders</li>
 				</a>
 				<a href="#">
-					<li>Gallery</li>
+					<li class="foot1">Gallery</li>
 				</a>
 				<a href="#">
-					<li>Terms And Conditions</li>
+					<li class="foot1">Terms And Conditions</li>
 				</a>
 			</ul>
 		</div>
          <div class="footer-section contact-form">
-			 <h2>Contact us</h2>
+			 <h2 class="foot">Contact us</h2>
 			 <br>
 			 <form align="center">
 				 <input type="email" name="email" class="contact-input" placeholder="Your email address..."><br>
@@ -107,6 +215,7 @@
 	<div class="footer-bottom">
 		&copy; prideuniversity.eu.in | Designed by
 	</div>
+</div>
 
 </body>
 </html>
